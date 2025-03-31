@@ -1,0 +1,7 @@
+# ignore directories
+.vscode
+
+# ignore virt envs
+
+# file extensions
+
