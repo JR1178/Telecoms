@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAC:"/>
+    <TextView
+        android:id="@+id/txtLac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCC:"/>
+    <TextView
+        android:id="@+id/txtMcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MNC:"/>
+    <TextView
+        android:id="@+id/txtMnc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMEI:"/>
+    <TextView
+        android:id="@+id/txtImei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMSI:"/>
+    <TextView
+        android:id="@+id/txtImsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"/>
+
+</LinearLayout>
